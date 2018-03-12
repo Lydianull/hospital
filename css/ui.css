@@ -1,0 +1,160 @@
+/*搜索框样式*/
+.ui-search{
+	background: url(../img/ui-search.jpg) center no-repeat;
+	font-size: 14px;
+	color: #fff;
+	position: relative;
+}
+.ui-search-selected{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 37px;
+	width: 68px;
+	line-height: 37px;
+	text-indent: 13px;
+
+}
+.ui-search-list{
+	position: absolute;
+	top: 38px;
+	left: 1px;
+	width: 68px;
+	line-height: 24px;
+	background:#fff;
+	box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+	display: none;
+}
+.ui-search-list a{
+	display: block;
+	width: 68px;
+	height: 24px;
+	font-size: 14px;
+	text-align: center;
+	color:black;
+	background: #fff;
+}
+.ui-search-list a:hover{
+	background: #ebeef5;
+}
+.ui-search-input{
+	position: absolute;
+	width: 212px;
+	height: 36px;
+	line-height: 36px;
+	padding-left:3px;
+	left: 68px;
+	top: 1px;
+	font-size: 12px;
+	color:#A5A2A2;
+}
+.ui-search-submit{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40px;
+	height: 37px;
+	cursor: pointer;
+}
+
+/*科室排班表ui-slider样式*/
+.ui-slider{
+	height: 100%;
+	width: 730px;
+	position: relative;
+	overflow: hidden;
+}
+.ui-slider-wrap{
+	width: 5000px;
+	height: 100%;
+	padding-left: 35px;
+	position: relative;
+	transition:all .5s;
+	left:0;
+	
+	
+}
+.ui-slider-wrap .ui-slider--table{
+	float: left;
+	left: 35px;
+	width:5000px;
+	height: 100%;
+
+	
+}
+.ui-slider--table .row{
+	height:28%;
+	box-sizing:border-box;
+	border-top: 1px solid #dbdbdb;
+}
+.ui-slider--table .row1{
+	height: 16%;
+	border-top: none;
+	background: #f8fafc;
+}
+.ui-slider--table .row1 .col-item,
+.ui-slider--table .row  .col-item{
+	width: 93.5px;
+	height: 100%;
+	box-sizing:border-box;
+	float: left;
+	padding:3px 10px;
+	border-right: 1px solid #dbdbdb;
+}
+.ui-slider--table .row:nth-child(3){
+	background: #e0eefd;
+	color: #4ab3ed;
+	text-align: center;
+	line-height: 90px;
+	font-size: 10px;
+}
+.ui-slider--table .col-item:nth-child(7n){
+	width: 99px;
+	padding:3px 14px;
+}
+.ui-slider-arrow{
+	height: 100%;
+	width: 730px;
+	position: absolute;
+	top:0px;
+
+}
+.ui-slider-arrow .right-arrow,
+.ui-slider-arrow .left-arrow{
+	position: absolute;
+	top: 0;
+	height: 280px;
+	padding-top: 45px;
+	width: 35px;
+	background: #f2f8ff;
+
+}
+.ui-slider-arrow .left-arrow{
+	left: 0;
+	border-right:1px solid #dbdbdb;
+
+}
+.ui-slider-arrow .right-arrow a,
+.ui-slider-arrow .left-arrow a{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	background: url(../img/icon-scheduling-left.jpg) no-repeat;
+	width: 35px;
+	height: 45px;
+}
+.ui-slider-arrow .left-arrow p{
+	line-height: 90px;
+	font-size: 14px;
+	text-align: center;
+}
+.ui-slider-arrow .right-arrow{
+	right: 0;
+	border-left:1px solid #dbdbdb;
+}
+.ui-slider-arrow .right-arrow a{
+	right: 0;
+	background: url(../img/icon-scheduling-right.jpg) no-repeat;
+}
